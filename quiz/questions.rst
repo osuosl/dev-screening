@@ -27,29 +27,28 @@ Answer the following questions and email your answers, code sample, and debugged
 
 8) Given the following database table, write an SQL query that will return a list of the colors of the three tallest plants.
 
-id    plant    color       height
-1     tree     red         12
-2     bush     blue        2
-3     vine     green       30
-4     flower   yellow      500
-5     hedge    purple      8
-6     moss     white       1
+	|id    |plant    |color       |height |
+	|------|---------|------------|-------|
+	|1     |tree     |red         |12     |
+	|2     |bush     |blue        |2      |
+	|3     |vine     |green       |30     |
+	|4     |flower   |yellow      |500    |
+	|5     |hedge    |purple      |8      |
+	|6     |moss     |white       |1      |
 
 
 9) What is Recursion, and how would you use it?
 
 
-10) Code Debugging:
-
-In the scripts directory in this git repository is a file called debug_this.py. This code is supposed to print a numbered and alphebetized list of names and associated email addresses, but there are a number of problems with the logic. Debug this script, fix the code as needed and add comments in the code describing what was wrong and how you fixed it. 
+10) Code Debugging: 
+	In the scripts directory in this git repository is a file called debug_this.py. This code is supposed to print a numbered and alphebetized list of names and associated email addresses, but there are a number of problems with the logic. Debug this script, fix the code as needed and add comments in the code describing what was wrong and how you fixed it. 
 
 
 11) Code sample:
+	In a language of your choice, write code to perform the following task:
 
-In a language of your choice, write code to perform the following task:
+	Print a prompt asking the user to think of a number between -100 and 100 inclusive. Don't ask the user to enter the number, instead have them keep the number in their mind and hit ENTER when they are ready.
 
-Print a prompt asking the user to think of a number between -100 and 100 inclusive. Don't ask the user to enter the number, instead have them keep the number in their mind and hit ENTER when they are ready.
+	Your code should then attempt to guess the number the user is thinking of. It should print a guess and have the user enter + if the number is too high, enter - if the numer is too low, or enter = if the guess is correct. Your code should guess the number in less than 8 guesses. 
 
-Your code should then attempt to guess the number the user is thinking of. It should print a guess and have the user enter + if the number is too high, enter - if the numer is too low, or enter = if the guess is correct. Your code should guess the number in less than 8 guesses. 
-
-When the user indicates that the guess is correct, print out the number of guesses made. If the code detects that the user is lying about their number, print a message and exit.
+	When the user indicates that the guess is correct, print out the number of guesses made. If the code detects that the user is lying about their number, print a message and exit.
