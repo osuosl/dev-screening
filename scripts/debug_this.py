@@ -3,25 +3,25 @@ Assume that the lists below are all the correct order, the first
 name in the names list corresponds to the first email in the
 emails list, and the first score in the scores list, etc.
 
-Print out all the names and emails for people whose scores are
-greater than or equal to 5.
+For each person in the names list with a score greater than or equal 
+to 5:
 
-Then calculate the Z number, which is (215 + average score) / score
+1. Calculate their Z_number, which is (215 + average score) / score
 
-for example, if the average score is 10 and one person's score is 12, 
-their Z number is 
+For example, if the average score is 10 and one person's score is 12, 
+their Z_number is 
 
 (215 + 10)/12 = 225/12 = 18.0
 
+2. Print out the name and corresponding email and Z_number on a line. 
 Number each line, so that the output looks something like this:
 
-1. Name 1, email 1, Z = Z number 1
-2. Name 2, email 2, Z = Z number 2
-.
-.
-.
-
-etc
+	1. Name, email, Z = Z_number
+	2. Name, email, Z = Z_number
+	3. Name, email, Z = Z_number
+	.
+	.
+	etc
 
 """
 
@@ -42,7 +42,6 @@ for score in scores:
 
 average_score = score / i
 
-i = 0
 while i < 10:
 	z_number = (average_score + 215)/scores[i] 
 	i = i + 1
