@@ -25,13 +25,13 @@ Number each line, so that the output looks something like this:
 
 """
 
-names = ('Bob', 'Anne', 'Fred', 'Marge', 'Tim', 'Sarah', 'John', 'Elise',
-		 'Andy', 'Ellen')
-emails = ('bob@example.com', 'anne@example.com', 'fred@example.com',
+names = ['Bob', 'Anne', 'Fred', 'Marge', 'Tim', 'Sarah', 'John', 'Elise',
+		 'Andy', 'Ellen']
+emails = ['bob@example.com', 'anne@example.com', 'fred@example.com',
 		  'marge@example.com', 'tim@example.com', 'sarah@example.com',
 		  'john@example.com', 'elise@example.com', 'andy@example.com',
-		  'ellen@example.com')
-scores = (2, 5, -2, 9, 0, 23, -8, 7, 1, 4)
+		  'ellen@example.com']
+scores = [2, 5, -2, 9, 0, 23, -8, 7, 1, 4]
 
 score = 0
 i = 1
