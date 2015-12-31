@@ -14,7 +14,8 @@ their Z_number is
 (215 + 10)/12 = 225/12 = 18.0
 
 2. Print out the name and corresponding email and Z_number on a line. 
-Number each line, so that the output looks something like this:
+Number each line, starting at 1, so that the output looks something like 
+this:
 
 	1. Name, email, Z = Z_number
 	2. Name, email, Z = Z_number
@@ -25,9 +26,9 @@ Number each line, so that the output looks something like this:
 
 """
 
-names = ['Bob', 'Anne', 'Fred', 'Marge', 'Tim', 'Sarah', 'John', 'Elise',
+names = ['Bob', 'Annie', 'Fred', 'Marge', 'Tim', 'Sarah', 'John', 'Elise',
 		 'Andy', 'Ellen']
-emails = ['bob@example.com', 'anne@example.com', 'fred@example.com',
+emails = ['bob@example.com', 'annie@example.com', 'fred@example.com',
 		  'marge@example.com', 'tim@example.com', 'sarah@example.com',
 		  'john@example.com', 'elise@example.com', 'andy@example.com',
 		  'ellen@example.com']
@@ -41,9 +42,9 @@ for score in scores:
 	i = i + 1
 
 average_score = score / i
-
+i = 0
 while i < 10:
-	z_number = (average_score + 215)/scores[i] 
+	z_number = average_score + 215/scores[i] 
 	i = i + 1
 
 	line_string = str(i)
