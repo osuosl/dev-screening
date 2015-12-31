@@ -27,14 +27,14 @@ Answer the following questions and email your answers, code sample, and debugged
 
 8) Given the following database table, write an SQL query that will return a list of the colors of the three tallest plants.
 
-	|id    |plant    |color       |height |
-	|------|---------|------------|-------|
-	|1     |tree     |red         |12     |
-	|2     |bush     |blue        |2      |
-	|3     |vine     |green       |30     |
-	|4     |flower   |yellow      |500    |
-	|5     |hedge    |purple      |8      |
-	|6     |moss     |white       |1      |
+|id    |plant    |color       |height |
+|------|---------|------------|-------|
+|1     |tree     |red         |12     |
+|2     |bush     |blue        |2      |
+|3     |vine     |green       |30     |
+|4     |flower   |yellow      |500    |
+|5     |hedge    |purple      |8      |
+|6     |moss     |white       |1      |
 
 
 9) What is Recursion, and how would you use it?
