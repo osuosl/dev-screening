@@ -45,10 +45,15 @@ Answer the following questions and email your answers, code sample, and debugged
 
 
 11) Code sample:
-	In a language of your choice, write code to perform the following task:
 
-	Print a prompt asking the user to think of a number between -100 and 100 inclusive. Don't ask the user to enter the number, instead have them keep the number in their mind and hit ENTER when they are ready.
+	In the language of your choice, write code to complete the following task.
 
-	Your code should then attempt to guess the number the user is thinking of. It should print a guess and have the user enter + if the number is too high, enter - if the numer is too low, or enter = if the guess is correct. Your code should guess the number in less than 8 guesses. 
+	There is a file in this repository called "machine_parts.txt". This file contains a list of parts which can be assembled into one of three separate machines. Each line in the file has a machine number, a part name, and optionally the name of a part which must be added to the machine before this part may be added.
 
-	When the user indicates that the guess is correct, print out the number of guesses made. If the code detects that the user is lying about their number, print a message and exit.
+	example line:
+
+	1 nozzle_flange_bracket nozzle_flange
+
+	where the part belongs to machine 1, 'nozzle_flange_bracket' is a part which must be attached before 'nozzle_flange' can be attached, and 'nozzle_flange' is the part name.
+
+	Write code that will list the machine parts in the correct order of assembly for each machine. If a machine can't be assembled given the order of parts, report the last part which can be attached to that machine.
