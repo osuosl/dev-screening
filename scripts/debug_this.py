@@ -42,7 +42,7 @@ for score in scores:
 	i = i + 1
 
 average_score = score / i
-i = 0
+
 while i < 10:
 	z_number = average_score + 215/scores[i] 
 	i = i + 1
