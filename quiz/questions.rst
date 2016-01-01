@@ -41,8 +41,7 @@ Answer the following questions and email your answers, code sample, and debugged
 
 
 10) Code Debugging: 
-	In the scripts directory in this git repository is a file called debug_this.py. This code is supposed to print a numbered and alphebetized list of names and associated email addresses, but there are a number of problems with the logic. Debug this script, fix the code as needed and add comments in the code describing what was wrong and how you fixed it. 
-
+	In the scripts directory in this repository is a file called debug_this.py. This code is supposed to print a numbered list of names, email addresses, and a computed 'Z Number' - but there are a number of problems with the logic. Debug this script, fix the code as needed and add comments in the code describing what was wrong and how you fixed it. The code is written in Python 2.7, but the errors are not due to python syntax, and you should not need to know the python language to spot the logical errors. You can run it anywhere you have access to python by typing "python debug_this.py". 
 
 11) Code sample:
 
