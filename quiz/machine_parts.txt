@@ -4,7 +4,7 @@
 1 nozzle nozzle_flange
 3 10_baseT_connector modem
 3 psaux_port heisenberg_compensator
-1 nozzle_flange fuel hose
+1 nozzle_flange fuel_hose
 3 modem base_module
 2 sparkler sparkler_holder
 2 cup cup_holder
@@ -14,7 +14,7 @@
 2 doritos
 3 base_module beige_box
 3 crt vga_card
-2 sparkler_holder lawn chair
+2 sparkler_holder lawn_chair
 3 vga_card motherboard
 2 lawn_chair
 1 fuel_hose nozzle
