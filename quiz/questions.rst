@@ -33,7 +33,7 @@ animal name and food of the three animals with the highest populations.
 	|52     |remora    |blood       |82000000   |
 	|54     |emu       |fruit       |725000     |
 	|63     |gecko     |insects     |9000000    |
-  |68     |earwig    |lettuce     |420000000  |
+	|68     |earwig    |lettuce     |420000000  |
 
 
 7) What is your favorite editor, and why?
