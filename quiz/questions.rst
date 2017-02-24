@@ -67,7 +67,8 @@ animal name and food of the three animals with the highest populations.
   contains a list of parts which can be assembled into one of three separate
   machines. Each line in the file has a machine number, a part name, and
   optionally the name of a part which must be added to the machine -before- this
-  part may be added.
+  part may be added. Some parts have mulitple dependencies  - this means there
+  will be several lines describing the same part.
 
 	example line:
 
